@@ -9,6 +9,6 @@ int main()
 {
 	float x;
 	scanf("%f",&x);
-	printf("%f",get_expression_result(x));
+	printf("%f\n",get_expression_result(x));
 	return 0;
 }
