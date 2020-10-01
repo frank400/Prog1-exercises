@@ -5,7 +5,7 @@ float get_expression_result(float x){
 	return (x *((-x) + (x * x) - (x * x * x) + (x * x * x * x))) / (-x *((x) - (x * x) + (x * x * x) - (x * x * x * x))) ;
 }
 
-int main(int argc, char const *argv[])
+int main()
 {
 	float x;
 	scanf("%f",&x);

@@ -6,7 +6,7 @@ float add_percentage(float x, int percentage){
 float retrive_percentage(float x,int percentage){
     return x*(1-(percentage/100.0));
 }
-int main(int argc, char const *argv[])
+int main()
 {
     float r1,r2;
     printf("First real value to be incresed by 30 percent:");
